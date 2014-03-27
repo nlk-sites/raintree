@@ -26,6 +26,19 @@ body { color: #333; }
 		background-color: transparent;
 	}
 
+	header#top nav > ul.sf-menu > li > a:before {
+		content: "|";
+		position: relative;
+		display: inline-block;
+		color: #aaa;
+		margin-right: 18px;
+	}
+	header#top nav > ul.sf-menu > li:first-child > a:before,
+	header#top nav > ul.sf-menu > li:last-child > a:before {
+		content: '';
+		margin-right: 0;
+	}
+
 /* - - - - - - - Hero - - - - - - - */
 	.hero-row {
 		display: block;
@@ -173,6 +186,15 @@ body { color: #333; }
 			rgba(239, 241, 236, 0) 100%
 		);
 		pointer-events: none; /* so the text is still selectable */
+	}
+
+/* - - - - - - - Orange Icons - - - - - - - */
+	.large-orange-icon {
+		background: transparent;
+		color: #efad4d;
+		font-size: 120px;
+		height: auto;
+		width: auto;
 	}
 
 /* - - - - - - - Special Padding - - - - - - - */
