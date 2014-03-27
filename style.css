@@ -159,6 +159,11 @@ body .ui-widget {
 	font-family: 'OpenSansRegular';	
 }
 
+.clearfix {
+	clear: both;
+	width: 100%;
+}
+
 
 .alignleft {
   float: left;
@@ -318,7 +323,7 @@ a:hover {
 	color: inherit;
 }
 
-h1 { font-size: 30px; line-height: 42px; margin-bottom: 7px; }
+h1 { font-size: 48px; line-height: 48px; margin-bottom: 7px; }
 
 h2 { font-size: 34px; line-height: 42px; margin-bottom: 10px;}
 

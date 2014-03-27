@@ -172,6 +172,7 @@ function nectar_main_styles() {
 		 wp_register_style("ie8", get_template_directory_uri() . "/css/ie8.css");
 
 		 wp_register_style("raintree-css", get_template_directory_uri() . "/css/raintree.css");
+		 wp_register_style("linecons-font-css", get_template_directory_uri() . "/fonts/linecons.css");
 		 
 		 // Enqueue
 		 wp_enqueue_style('rgs');
@@ -182,6 +183,7 @@ function nectar_main_styles() {
 		 wp_enqueue_style('ie8');
 		 
 		 wp_enqueue_style('raintree-css');
+		 wp_enqueue_style('linecons-font-css');
 		 
 		 //responsive
 		 $options = get_option('raintree');
