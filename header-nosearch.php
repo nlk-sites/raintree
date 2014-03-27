@@ -144,7 +144,7 @@ if($using_secondary == 'header_with_secondary') { ?>
 								echo '<li><a href="">No menu assigned!</a></li>';
 							}
 							?>
-							<!--li id="search-btn"><div><a href=""><span class="icon-raintree-search" aria-hidden="true"></span></a></div></li-->
+							<li id="search-btn"><div><a href=""><span class="icon-raintree-search" aria-hidden="true"></span></a></div></li>
 						</ul>
 					</nav>
 					

@@ -2,7 +2,7 @@
 
 <?php nectar_page_header($post->ID); ?>
 
-<div class="container-wrap">
+<div class="container-wrap default-page-template">
 	
 	<div class="container main-content">
 		

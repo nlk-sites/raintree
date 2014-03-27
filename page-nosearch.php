@@ -1,6 +1,6 @@
 <?php
-/*template name: Default - No-Search Header */
-get_header('nosearch'); ?>
+/*template name: Home */
+get_header(); ?>
 
 <?php nectar_page_header($post->ID); ?>
 
