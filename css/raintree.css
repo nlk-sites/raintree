@@ -173,6 +173,8 @@ body { color: #333; }
 /* - - - - - - - Fade Blocks - - - - - - - */
 	.fade-block {
 		overflow: hidden;
+		-webkit-transition: height .5s;
+		transition: height .5s;
 	}
 	.fade-block:after {
 		position: absolute;
@@ -186,6 +188,20 @@ body { color: #333; }
 			rgba(239, 241, 236, 0) 100%
 		);
 		pointer-events: none; /* so the text is still selectable */
+	}
+	.fade-block:hover {
+		background-color: #eff1ec;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		bottom: -160px;
+		height: auto !important;
+		left: -23px;
+		padding: 20px;
+		position: absolute;
+		width: 300px;
+	}
+	.fade-block:hover:after {
+		display: none;
 	}
 
 /* - - - - - - - Orange Icons - - - - - - - */
