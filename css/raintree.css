@@ -173,6 +173,7 @@ body { color: #333; }
 /* - - - - - - - Fade Blocks - - - - - - - */
 	.fade-block {
 		overflow: hidden;
+		height: 160px;
 		-webkit-transition: height .5s;
 		transition: height .5s;
 	}
