@@ -7,6 +7,10 @@ html, html a {
 }
 body { color: #333; }
 
+/* - - - - - - - Sidebar Cols - - - - - - - */
+	.sidebar-col p {
+		font: 400 14px/21px "OpenSansRegular" ,arial, helvetica, sans-serif;
+	}
 
 /* - - - - - - - Navigation Menu CTA - - - - - - - */
 	header#top nav ul li a {
@@ -248,5 +252,6 @@ body { color: #333; }
 	/* right col */
 	.vc_span4.wpb_column.column_container.col {
 		border-left: 1px solid #ddd;
+		font: 400 14px/21px "OpenSansRegular" ,arial, helvetica, sans-serif;
 		padding-left: 40px;
 	}
