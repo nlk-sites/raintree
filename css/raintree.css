@@ -140,6 +140,8 @@ body { color: #333; }
 
 /* - - - - - - - Testimonials - - - - - - - */
 	.testimonial_slider blockquote p {
+		font-size: 22px;
+		line-height: 40px;
 		max-width: 75%;
 		margin: auto;
 	}
@@ -213,6 +215,13 @@ body { color: #333; }
 		height: auto;
 		width: auto;
 	}
+
+/* - - - - - - - Row Data - - - - - - - */
+	.row-data p {
+		font: 400 14px/21px "OpenSansRegular" ,arial, helvetica, sans-serif;
+	}
+
+
 
 /* - - - - - - - Special Padding - - - - - - - */
 	.css-padded-0-10 { padding: 0 10px; }

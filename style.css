@@ -394,6 +394,7 @@ h1 .nectar-button, h2 .nectar-button, h3 .nectar-button, h4 .nectar-button {
 }
 
 p {
+	font: 400 15px/22px "OpenSansRegular" ,arial, helvetica, sans-serif;
 	padding-bottom: 27px;
 }
     
