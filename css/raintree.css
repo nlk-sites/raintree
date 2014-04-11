@@ -56,14 +56,17 @@ span.onco-explorer-logo {
 	}
 
 /* - - - - - - - Hero - - - - - - - */
-	.slider-blue .content {
-		top:;
-	}
 	.slider-blue .content .the-text {
 		max-width: 480px;
 	}
-	
-	.slider-blue h2 {
+	.slider-grey .content .the-text {
+		max-width: 640px;
+	}
+	.slider-people .content .the-text {
+		max-width: 640px;
+	}
+
+	.swiper-slide .content h2 {
 		font-style: 3.45em !important;
 		line-height: 1.1em;
 	}
@@ -71,9 +74,20 @@ span.onco-explorer-logo {
 		color: #fff;
 	}
 	.slider-blue h3 {
-		font-size: 1.4em;
+		color: #fff;
+		font-size: 1.4em !important;
 	}
-
+	.slider-grey h2,
+	.slider-grey h2 b,
+	.slider-people h2,
+	.slider-people h2 b {
+		color: #333;
+	}
+	.slider-grey h3,
+	.slider-people h3 {
+		color: #333;
+		font-size: 1.4em !important;
+	}
 
 
 
