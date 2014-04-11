@@ -8,9 +8,10 @@ html, html a {
 body { color: #333; }
 
 span.onco-explorer-logo {
-	background: url(images/icons/oncoexplorer_logo.png) no-repeat 0 0;
+	background: url(../images/logos/oncoexplorer_logo.png) no-repeat 0 0;
 	display: block;
 	height: 50px;
+	margin: 20px 0 40px;
 	width: 244px;
 }
 
@@ -261,4 +262,12 @@ span.onco-explorer-logo {
 		border-left: 1px solid #ddd;
 		font: 400 14px/21px "OpenSansRegular" ,arial, helvetica, sans-serif;
 		padding-left: 40px;
+	}
+
+
+
+
+/* - - - - - - - FIXES - - - - - - - */
+	.img-chart-fix {
+		
 	}
