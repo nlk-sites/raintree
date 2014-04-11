@@ -56,12 +56,19 @@ span.onco-explorer-logo {
 	}
 
 /* - - - - - - - Hero - - - - - - - */
-	.slider-blue h2 {
-		font-size: .9em;
+	.slider-blue .content {
+		top:;
+	}
+	.slider-blue .content .the-text {
+		max-width: 480px;
+	}
+	.slider-blue h3 {
+		font-size: 1.4em;
 	}
 	.slider-blue h2 b {
 		color: #fff;
 	}
+
 
 
 
