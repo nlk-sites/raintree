@@ -7,6 +7,13 @@ html, html a {
 }
 body { color: #333; }
 
+span.onco-explorer-logo {
+	background: url(images/icons/oncoexplorer_logo.png) no-repeat 0 0;
+	display: block;
+	height: 50px;
+	width: 244px;
+}
+
 /* - - - - - - - Sidebar Cols - - - - - - - */
 	.sidebar-col p {
 		font: 400 14px/21px "OpenSansRegular" ,arial, helvetica, sans-serif;
