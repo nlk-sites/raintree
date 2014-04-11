@@ -231,6 +231,13 @@ span.onco-explorer-logo {
 /* - - - - - - - Row Data - - - - - - - */
 	.row-data p {
 		font: 400 14px/21px "OpenSansRegular" ,arial, helvetica, sans-serif;
+		padding: 0 12px;
+	}
+
+
+/* - - - - - - - Row Analytics - - - - - - - */
+	.row-analytics .col.span_12 .vc_span6:last-child img {
+		margin-left: -86px;
 	}
 
 
