@@ -60,10 +60,10 @@ span.onco-explorer-logo {
 		max-width: 480px;
 	}
 	.slider-grey .content .the-text {
-		max-width: 640px;
+		max-width: 580px;
 	}
 	.slider-people .content .the-text {
-		max-width: 640px;
+		max-width: 500px;
 	}
 
 	.swiper-slide .content h2 {
@@ -178,8 +178,10 @@ span.onco-explorer-logo {
 
 
 /* - - - - - - - Row Analytics - - - - - - - */
-	.row-analytics .col.span_12 .vc_span6:last-child img {
-		margin-left: -86px;
+	@media all and (min-width: 1300px) {
+		.row-analytics .col.span_12 .vc_span6:last-child img {
+			margin-left: -86px;
+		}
 	}
 
 
