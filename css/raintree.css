@@ -183,6 +183,11 @@ span.onco-explorer-logo {
 			margin-left: -86px;
 		}
 	}
+	@media all and (max-width: 1299px) {
+		.row-analytics .col.span_12 .vc_span6:first-child img {
+			margin: auto;
+		}
+	}
 
 
 
