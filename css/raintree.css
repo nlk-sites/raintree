@@ -62,11 +62,16 @@ span.onco-explorer-logo {
 	.slider-blue .content .the-text {
 		max-width: 480px;
 	}
-	.slider-blue h3 {
-		font-size: 1.4em;
+	
+	.slider-blue h2 {
+		font-style: 3.45em !important;
+		line-height: 1.1em;
 	}
 	.slider-blue h2 b {
 		color: #fff;
+	}
+	.slider-blue h3 {
+		font-size: 1.4em;
 	}
 
 
