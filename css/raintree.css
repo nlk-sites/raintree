@@ -224,6 +224,4 @@ span.onco-explorer-logo {
 
 
 /* - - - - - - - FIXES - - - - - - - */
-	.img-chart-fix {
-		
-	}
+	#copyright p { font-size: 13px; }
