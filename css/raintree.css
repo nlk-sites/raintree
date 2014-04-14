@@ -205,10 +205,17 @@ span.onco-explorer-logo {
 	.css-padded-50-0 { padding: 50px 0; }
 
 /* - - - - - - - Custom Page styles - - - - - - - */
+	#the-page-title { margin-top: -4px; position: relative; z-index: 99; }
 	#the-page-title h1 {
 		color: #fff;
 		padding: 26px 0;
+		margin: 0;
 	}
+	.container-wrap, .project-title {
+		margin-top: 0;
+		padding-top: 43px;
+	}
+
 	/* left col */
 	.vc_span8.wpb_column.column_container.col {
 		padding-right: 40px;
@@ -226,11 +233,14 @@ span.onco-explorer-logo {
 /* - - - - - - - FIXES - - - - - - - */
 	#copyright p { font-size: 13px; }
 
-	@media all and (min-width: 960px) {
+	@media all and (min-width: 1000px) {
 		.large-screens-show { display: block; }
 		.small-screens-show { display: none; }
 	}
-	@media all and (max-width: 959px) {
+	@media all and (max-width: 999px) {
 		.large-screens-show { display: none; }
 		.small-screens-show { display: block; margin-top: -138px !important; }
+		.side-col-section .vc_span4.col { display: none; }
+		#the-page-title h1 { font-size: 2em; padding: 0; }
 	}
+	strong, b { color: inherit; }

@@ -156,8 +156,6 @@ if($using_secondary == 'header_with_secondary') { ?>
 		
 	</header>
 	
-	<?php if ( ! is_front_page() ) { echo '<div id="the-page-title" class="purple-bar"><div class="container"><h1>' . get_the_title() . '</h1></div></div>'; } ?>
-	
 	<?php if (!empty($options['enable-cart']) && $options['enable-cart'] == '1') { ?>
 		<?php
 		if ($woocommerce) { ?>
@@ -215,3 +213,4 @@ if($using_secondary == 'header_with_secondary') { ?>
 	
 </div>
 
+<?php if ( ! is_front_page() ) { echo '<div id="the-page-title" class="purple-bar"><div class="container"><h1>' . get_the_title() . '</h1></div></div>'; } ?>
