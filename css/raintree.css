@@ -232,5 +232,5 @@ span.onco-explorer-logo {
 	}
 	@media all and (max-width: 959px) {
 		.large-screens-show { display: none; }
-		.small-screens-show { display: block; }
+		.small-screens-show { display: block; margin-top: -138px !important; }
 	}
