@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'linecons';
-	src:url('linecons/linecons.eot?iztz18');
-	src:url('linecons/linecons.eot?#iefixiztz18') format('embedded-opentype'),
-		url('linecons/linecons.woff?iztz18') format('woff'),
-		url('linecons/linecons.ttf?iztz18') format('truetype'),
-		url('linecons/linecons.svg?iztz18#linecons') format('svg');
+	src:url('fonts/linecons.eot?-6lufbx');
+	src:url('fonts/linecons.eot?#iefix-6lufbx') format('embedded-opentype'),
+		url('fonts/linecons.woff?-6lufbx') format('woff'),
+		url('fonts/linecons.ttf?-6lufbx') format('truetype'),
+		url('fonts/linecons.svg?-6lufbx#linecons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -325,4 +325,16 @@
 }
 .icon-Untitled-2:before {
 	content: "\e664";
+}
+.icon-th-menu:before {
+	content: "\e665";
+}
+.icon-th-list:before {
+	content: "\e666";
+}
+.icon-th-menu-outline:before {
+	content: "\e667";
+}
+.icon-th-list-outline:before {
+	content: "\e668";
 }
