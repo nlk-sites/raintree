@@ -125,7 +125,7 @@ if($using_secondary == 'header_with_secondary') { ?>
 				
 				<div class="col span_9 col_last">
 					
-					<a href="#" id="toggle-nav"><i class="icon-reorder"></i></a>
+					<a href="#" id="toggle-nav"><i class="icon-th-menu"></i></a>
 					
 					<?php if (!empty($options['enable-cart']) && $options['enable-cart'] == '1') { 
 						if ($woocommerce) { ?> 
