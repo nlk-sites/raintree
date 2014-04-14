@@ -33,7 +33,7 @@ function nectar_custom_css() {
 	//top nav
 	
 	$logo_height = (!empty($options['use-logo']) && !empty($options['logo-height'])) ? intval($options['logo-height']) : 30;
-	$header_padding = (!empty($options['header-padding'])) ? intval($options['header-padding']) : 28;
+	$header_padding = (!empty($options['header-padding'])) ? intval($options['header-padding']) : 26;
 	$nav_font_size = (!empty($options['use-custom-fonts']) && $options['use-custom-fonts'] == 1 && !empty($options['navigation_font_size']) && $options['navigation_font_size'] != '-') ? intval(substr($options['navigation_font_size'],0,-2) -1 ) : 20;
 	$dd_indicator_height = (!empty($options['use-custom-fonts']) && $options['use-custom-fonts'] == 1 && !empty($options['navigation_font_size']) && $options['navigation_font_size'] != '-') ? intval(substr($options['navigation_font_size'],0,-2)) -1 : 20;
 	
