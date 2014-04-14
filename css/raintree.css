@@ -225,3 +225,12 @@ span.onco-explorer-logo {
 
 /* - - - - - - - FIXES - - - - - - - */
 	#copyright p { font-size: 13px; }
+
+	@media all and (min-width: 960px) {
+		.large-screens-show { display: block; }
+		.small-screens-show { display: none; }
+	}
+	@media all and (max-width: 959px) {
+		.large-screens-show { display: none; }
+		.small-screens-show { display: block; }
+	}
