@@ -51,6 +51,25 @@ $logo_class = (!empty($options['use-logo']) && $options['use-logo'] == '1') ? nu
 
 <body <?php body_class(); ?> data-bg-header="<?php echo (!empty($header_bg) || !empty($header_title) || $parallax_nectar_slider == '1') ? 'true' : 'false'; ?>" data-header-color="<?php echo (!empty($options['header-color'])) ? $options['header-color'] : 'light' ; ?>" data-smooth-scrolling="<?php echo $options['smooth-scrolling']; ?>" data-responsive="<?php echo (!empty($options['responsive']) && $options['responsive'] == 1) ? '1'  : '0' ?>" >
 
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WP65CM" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+(function(w,d,s,l,i){
+	w[l]=w[l]||[];
+	w[l].push({
+		'gtm.start':new Date().getTime(),
+		event:'gtm.js'
+	});
+	var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),
+		dl=l!='dataLayer'?'&l='+l:'';
+	j.async=true;
+	j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;
+	f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WP65CM');
+</script>
+<!-- End Google Tag Manager -->
+
 <?php if(!empty($options['boxed_layout']) && $options['boxed_layout'] == '1') { echo '<div id="boxed">'; } ?>
 
 <?php $using_secondary = (!empty($options['header_layout'])) ? $options['header_layout'] : ' '; 
