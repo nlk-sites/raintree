@@ -2611,7 +2611,7 @@ setTimeout(shopping_cart_dropdown,950);
 		////facebook
 		
 		//load share count on load  
-		$.getJSON("http://graph.facebook.com/?id="+ window.location +'&callback=?', function(data) {
+		$.getJSON("//graph.facebook.com/?id="+ window.location +'&callback=?', function(data) {
 			if((data.shares != 0) && (data.shares != undefined) && (data.shares != null)) { 
 				$('.facebook-share a span.count, a.facebook-share span.count').html( data.shares );	
 			}
@@ -2654,7 +2654,7 @@ setTimeout(shopping_cart_dropdown,950);
 		////twitter
 		
 		//load tweet count on load 
-		$.getJSON('http://urls.api.twitter.com/1/urls/count.json?url='+window.location+'&callback=?', function(data) {
+		$.getJSON('//urls.api.twitter.com/1/urls/count.json?url='+window.location+'&callback=?', function(data) {
 			if((data.count != 0) && (data.count != undefined) && (data.count != null)) { 
 				$('.twitter-share a span.count, a.twitter-share span.count').html( data.count );
 			}
@@ -2666,11 +2666,11 @@ setTimeout(shopping_cart_dropdown,950);
 		});
 		
 		function twitterShare(){
-			window.open( 'http://twitter.com/intent/tweet?text='+$(".section-title h1").text() +' '+window.location, "twitterWindow", "height=380,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" ) 
+			window.open( '//twitter.com/intent/tweet?text='+$(".section-title h1").text() +' '+window.location, "twitterWindow", "height=380,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" ) 
 			return false;
 		}
 		function wooTwitterShare(){
-			window.open( 'http://twitter.com/intent/tweet?text='+$("h1.product_title").text() +' '+window.location, "twitterWindow", "height=380,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" ) 
+			window.open( '//twitter.com/intent/tweet?text='+$("h1.product_title").text() +' '+window.location, "twitterWindow", "height=380,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" ) 
 			return false;
 		}
 		
@@ -2680,7 +2680,7 @@ setTimeout(shopping_cart_dropdown,950);
 		////pinterest
 		
 		//load pin count on load 
-		$.getJSON('http://api.pinterest.com/v1/urls/count.json?url='+window.location+'&callback=?', function(data) {
+		$.getJSON('//api.pinterest.com/v1/urls/count.json?url='+window.location+'&callback=?', function(data) {
 			if((data.count != 0) && (data.count != undefined) && (data.count != null)) { 
 				$('.pinterest-share a span.count, a.pinterest-share span.count').html( data.count );
 			}
@@ -2693,12 +2693,12 @@ setTimeout(shopping_cart_dropdown,950);
 		
 		function pinterestShare(){
 			var $sharingImg = ($('.single-portfolio').length > 0 && $('div[data-featured-img]').attr('data-featured-img') != 'empty' ) ? $('div[data-featured-img]').attr('data-featured-img') : $('#post-area img').first().attr('src'); 
-			window.open( 'http://pinterest.com/pin/create/button/?url='+window.location+'&media='+$sharingImg+'&description='+$('.section-title h1').text(), "pinterestWindow", "height=640,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" ) 
+			window.open( '//pinterest.com/pin/create/button/?url='+window.location+'&media='+$sharingImg+'&description='+$('.section-title h1').text(), "pinterestWindow", "height=640,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" ) 
 			return false;
 		}
 		
 		function wooPinterestShare(){
-			window.open( 'http://pinterest.com/pin/create/button/?url='+window.location+'&media='+$('img.attachment-shop_single').first().attr('src')+'&description='+$('h1.product_title').text(), "pinterestWindow", "height=640,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" ) 
+			window.open( '//pinterest.com/pin/create/button/?url='+window.location+'&media='+$('img.attachment-shop_single').first().attr('src')+'&description='+$('h1.product_title').text(), "pinterestWindow", "height=640,width=660,resizable=0,toolbar=0,menubar=0,status=0,location=0,scrollbars=0" ) 
 			return false;
 		}
 		
